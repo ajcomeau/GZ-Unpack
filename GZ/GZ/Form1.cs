@@ -16,8 +16,6 @@ namespace GZ
 {
     public partial class Form1 : Form
     {
-        long fileSize;
-
         public Form1()
         {
             InitializeComponent();
@@ -25,28 +23,29 @@ namespace GZ
 
         private void UnZIP_Click(object sender, EventArgs e)
         {
-            byte[] dataBuffer = new byte[8192];
+            byte[] dataBuffer = new byte[16184];
 
             try
             {
+                // Verify file and target directory have been selected.
                 if (txtGZ.Text.Length > 0 && txtTarget.Text.Length > 0)
                 {
-                    UnZIP.Enabled = false;
+                    UnZIP.Enabled = false;  // Disable button and clear progress label.
                     lblProgress.Text = "";
 
                     using (System.IO.Stream fs = new FileStream(txtGZ.Text, FileMode.Open, FileAccess.Read))
                     {
-                        fileSize = fs.Length;
                         using (GZipInputStream gzipStream = new GZipInputStream(fs))
                         {
-                            // Change this to your needs
                             string fnOut = Path.Combine(txtTarget.Text, Path.GetFileNameWithoutExtension(txtGZ.Text));
 
                             using (FileStream fsOut = File.Create(fnOut))
                             {
-                                StreamUtils.Copy(gzipStream, fsOut, dataBuffer, gzProgress, TimeSpan.FromSeconds(2), gzipStream, "UnZip");
+                                // Send stream to file and call progress routine every 2 seconds.
+                                StreamUtils.Copy(gzipStream, fsOut, dataBuffer, gzProgress, TimeSpan.FromSeconds(2), fs, "UnZip");
                             }
 
+                            // Re-enable button, notify the user and reset progress indicators.
                             UnZIP.Enabled = true;
                             MessageBox.Show("Unpacking complete.");
                             lblProgress.Text = "";
@@ -70,8 +69,10 @@ namespace GZ
 
         private void gzProgress(object sender, ProgressEventArgs e)
         {
-            GZipInputStream zipStream = (GZipInputStream)sender;
-            float pctComplete = (zipStream.Position / (float)fileSize) * 100;
+            //Calculate the progress based on file size and current position within the 
+            // input stream being written.
+            Stream zipStream = (Stream)sender;
+            float pctComplete = (zipStream.Position / (float)zipStream.Length) * 100;
             lblProgress.Text = ((int)pctComplete).ToString() + "% complete.";
             pbUnzip.Value = (int)pctComplete;
             Application.DoEvents();

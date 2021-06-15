@@ -22,3 +22,4 @@ C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.exe
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.pdb
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csprojAssemblyReference.cache
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csproj.CopyComplete
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\ICSharpCode.SharpZipLib.pdb

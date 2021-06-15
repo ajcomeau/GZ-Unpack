@@ -11,3 +11,4 @@ C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csproj.CopyComple
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.exe
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.pdb
 C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csprojAssemblyReference.cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\ICSharpCode.SharpZipLib.pdb
