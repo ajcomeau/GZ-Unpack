@@ -36,6 +36,7 @@
             this.fbdTarget = new System.Windows.Forms.FolderBrowserDialog();
             this.btnTarget = new System.Windows.Forms.Button();
             this.lblProgress = new System.Windows.Forms.Label();
+            this.pbUnzip = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // UnZIP
@@ -94,11 +95,20 @@
             this.lblProgress.Size = new System.Drawing.Size(0, 13);
             this.lblProgress.TabIndex = 5;
             // 
+            // pbUnzip
+            // 
+            this.pbUnzip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pbUnzip.Location = new System.Drawing.Point(12, 160);
+            this.pbUnzip.Name = "pbUnzip";
+            this.pbUnzip.Size = new System.Drawing.Size(260, 23);
+            this.pbUnzip.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.pbUnzip);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.btnTarget);
             this.Controls.Add(this.txtTarget);
@@ -122,6 +132,7 @@
         private System.Windows.Forms.FolderBrowserDialog fbdTarget;
         private System.Windows.Forms.Button btnTarget;
         private System.Windows.Forms.Label lblProgress;
+        private System.Windows.Forms.ProgressBar pbUnzip;
     }
 }
 

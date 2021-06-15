@@ -49,6 +49,8 @@ namespace GZ
 
                             UnZIP.Enabled = true;
                             MessageBox.Show("Unpacking complete.");
+                            lblProgress.Text = "";
+                            pbUnzip.Value = 0;
                         }
                     }
                 }
@@ -71,6 +73,7 @@ namespace GZ
             GZipInputStream zipStream = (GZipInputStream)sender;
             float pctComplete = (zipStream.Position / (float)fileSize) * 100;
             lblProgress.Text = ((int)pctComplete).ToString() + "% complete.";
+            pbUnzip.Value = (int)pctComplete;
             Application.DoEvents();
         }
 
@@ -79,6 +82,7 @@ namespace GZ
             if (ofdGZFile.ShowDialog() == DialogResult.OK)
             {
                 txtGZ.Text = ofdGZFile.FileName;
+                lblProgress.Text = "";
             }
         }
 
