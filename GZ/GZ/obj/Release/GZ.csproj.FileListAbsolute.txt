@@ -1,0 +1,13 @@
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\GZ.exe.config
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\GZ.exe
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\GZ.pdb
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.Form1.resources
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.Properties.Resources.resources
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csproj.GenerateResource.cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csproj.CoreCompileInputs.cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csproj.CopyComplete
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.exe
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.pdb
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Release\GZ.csprojAssemblyReference.cache

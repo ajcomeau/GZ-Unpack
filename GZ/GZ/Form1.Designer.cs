@@ -35,6 +35,7 @@
             this.txtTarget = new System.Windows.Forms.TextBox();
             this.fbdTarget = new System.Windows.Forms.FolderBrowserDialog();
             this.btnTarget = new System.Windows.Forms.Button();
+            this.lblProgress = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // UnZIP
@@ -85,11 +86,20 @@
             this.btnTarget.UseVisualStyleBackColor = true;
             this.btnTarget.Click += new System.EventHandler(this.btnTarget_Click);
             // 
+            // lblProgress
+            // 
+            this.lblProgress.AutoSize = true;
+            this.lblProgress.Location = new System.Drawing.Point(12, 227);
+            this.lblProgress.Name = "lblProgress";
+            this.lblProgress.Size = new System.Drawing.Size(0, 13);
+            this.lblProgress.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.btnTarget);
             this.Controls.Add(this.txtTarget);
             this.Controls.Add(this.button1);
@@ -111,6 +121,7 @@
         private System.Windows.Forms.TextBox txtTarget;
         private System.Windows.Forms.FolderBrowserDialog fbdTarget;
         private System.Windows.Forms.Button btnTarget;
+        private System.Windows.Forms.Label lblProgress;
     }
 }
 

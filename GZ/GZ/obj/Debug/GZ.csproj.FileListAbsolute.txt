@@ -9,3 +9,16 @@ C:\Users\Andrew\Desktop\GZ\GZ\obj\Debug\GZ.Properties.Resources.resources
 C:\Users\Andrew\Desktop\GZ\GZ\obj\Debug\GZ.csproj.GenerateResource.Cache
 C:\Users\Andrew\Desktop\GZ\GZ\obj\Debug\GZ.exe
 C:\Users\Andrew\Desktop\GZ\GZ\obj\Debug\GZ.pdb
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\GZ.exe.config
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\GZ.exe
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\GZ.pdb
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.Form1.resources
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.Properties.Resources.resources
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csproj.GenerateResource.Cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csproj.CoreCompileInputs.cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.exe
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.pdb
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csprojAssemblyReference.cache
+C:\Users\acome\Desktop\Git Code\GZ-Unpack\GZ\GZ\obj\Debug\GZ.csproj.CopyComplete
